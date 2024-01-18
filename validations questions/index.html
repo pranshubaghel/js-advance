@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validations</title>
+</head>
+
+<body>
+    <div>
+        <form id="myform">
+
+            <input id="youremail" placeholder="enter your email">
+            <br><br>
+            <input id="yourpassword" placeholder="enter your password">
+            <br><br>
+            <div style="color: red;" id="showerror"></div>
+            <br><br>
+            <button type="submit">submit</button>
+
+        </form>
+    </div>
+    <script>
+        document.getElementById("myform").addEventListener("submit", function (e) {
+            e.preventDefault()
+            let email = document.getElementById("youremail");
+            let password = document.getElementById("yourpassword");
+
+            console.log(password.value);
+            if (password.value == "") {
+                document.getElementById("showerror").innerHTML = "password can't be blank"
+
+            }
+            
+
+            
+            else {
+                document.getElementById("showerror").innerHTML = ""
+            }
+            console.log(email.value);
+
+        }
+        )
+    </script>
+</body>
+
+</html>
