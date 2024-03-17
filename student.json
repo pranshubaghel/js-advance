@@ -1,0 +1,19 @@
+{
+    "student": [
+        {
+            "name" : "pranshu",
+            "age": 25
+        },
+
+        {
+            "adress": "rewa",
+            "pincode": 487662
+        },
+
+        {
+            "lang": "javacsript",
+            "course": "full=stack"
+        }
+    ]
+    
+}

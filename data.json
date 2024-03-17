@@ -1,0 +1,13 @@
+{
+    "name" : "pranshu",
+    "age"  : 21,
+    "is_student":true,
+    "passport_no": null,
+    "p_lang": ["c","c++","java","python"],
+    "adress":{
+        "city":"rewa",
+        "state": "madhyapradesh",
+        "pincode": 486771
+    }
+
+}
