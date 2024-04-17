@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spreadopeartor</title>
 </head>
+
 <body>
     <script>
         // let arr1 = [2,4,6];
@@ -17,7 +19,7 @@
         // let arr2 = [...arr1,5,8,9];
         // document.write(arr2);
 
-         // if you want to add arr1 in centre or with any no
+        // if you want to add arr1 in centre or with any no
 
         //  let arr1 = [2,4,6];
         // let arr2 = [5,8,...arr1,9];
@@ -25,12 +27,22 @@
 
         // combine two array 
 
-        let arr1 = [1,2,4];
-        let arr2 = [3,5,7];
-        let arr3 = [...arr1,...arr2];
-        document.write(arr3);
+        // let arr1 = [1, 2, 4];
+        // let arr2 = [3, 5, 7];
+        // let arr3 = [...arr1, ...arr2];
+        // document.write(arr3);
+
+        function sum(...numbers) {
+    return numbers.reduce((acc, current) => acc + current, 0);
+}
+
+console.log(sum(1, 2, 3)); // Output: 6
+console.log(sum(1, 2, 3, 4, 5)); // Output: 15
+
+
 
 
     </script>
 </body>
+
 </html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Filter Method</h1>
+    <script>
+        let team = [{
+            name: "pranshu",
+            position: "developer"
+        },
+        {
+            name: "tanish",
+            position: "developer"
+        },
+        {
+            name: "shyam",
+            position:"data anaylst"
+        },
+        {
+            name: "ram",
+            position: "enginior"
+        },
+
+    ];
+
+    let Pdevelper = team.filter(function(val){
+        return val.position == "developer";
+    });
+    console.log(Pdevelper);
+
+    // with the use of Arrow function
+    
+    // let developer = team.filter(val => val.position == "developer");
+    // console.log(developer);
+
+
+    </script>
+</body>
+</html>
